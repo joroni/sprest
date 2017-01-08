@@ -29,12 +29,14 @@
 * [Query >5000 Items Example](https://github.com/gunjandatta/sprest-large-list)
 
 ## Get Started:
+
+### Node Package Manager
+```
+npm install gd-sprest --save
+```
+
 ### Manual
 1. Download the script from the "dist" folder
 2. Upload the script to a SharePoint document library
 3. Reference the script in any page
 4. Open the console window and start coding away
-### Node Package Manager
-```
-npm install gd-sprest --save
-```
