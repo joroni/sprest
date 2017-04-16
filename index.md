@@ -1,7 +1,6 @@
 [![Current Version](https://badge.fury.io/js/gd-sprest.svg)](https://www.npmjs.com/package/gd-sprest)
 [![Downloads](https://img.shields.io/npm/dm/gd-sprest.svg)](https://www.npmjs.com/package/gd-sprest)
 [![Total Downloads](https://img.shields.io/npm/dt/gd-sprest.svg)](https://www.npmjs.com/package/gd-sprest)
-
 *Please report issues. I am constantly updating/fixing/testing to make this library better.*
 
 ## Benefits:
@@ -23,18 +22,40 @@
 
 ### Example Projects
 * [Add/Remove Site Collection User Custom Actions](https://github.com/gunjandatta/sprest-sitecustomactions)
+* [Calendar Event Callout](https://github.com/gunjandatta/sp-event-callout)
 * [Office Fabric BCS List](https://github.com/gunjandatta/sprest-bcs-list)
 * [Office Fabric React](https://github.com/gunjandatta/sprest-fabric-react)
 * [Office Fabric UI Dashboard](https://github.com/gunjandatta/sprest-list)
 * [Query >5000 Items Example](https://github.com/gunjandatta/sprest-large-list)
+* [SharePoint JS-Link Starter Project](https://github.com/gunjandatta/sp-jslink)
+* [SharePoint Scripts Starter Project](https://github.com/gunjandatta/sp-scripts)
 
 ## Get Started:
-
 ### Node Package Manager
 ```
 npm install gd-sprest --save
 ```
-
+### NodeJS
+```
+import {
+    ContextInfo,
+    Email,
+    Helper,
+    JSLink,
+    List,
+    PeopleManager,
+    PeoplePicker,
+    ProfileLoader,
+    RequestType,
+    Search,
+    Site,
+    SocialFeed,
+    SPTypes,
+    Types,
+    UserProfile,
+    Web
+} from "gd-sprest";
+```
 ### Manual
 1. Download the script from the "dist" folder
 2. Upload the script to a SharePoint document library
