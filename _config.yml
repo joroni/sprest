@@ -2,7 +2,7 @@ title: SharePoint REST Framework
 description: An easy way to create, read, update and delete data using the SharePoint 2013/Online REST API
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-dinky
+theme: jekyll-theme-slate
 
 gems:
   - jekyll-mentions
