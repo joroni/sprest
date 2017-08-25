@@ -5,13 +5,13 @@
 *Please report issues. I am constantly updating/fixing/testing to make this library better.*
 
 ## Benefits:
-* Intellisense
-* Easy to develop against the SharePoint REST API
-* Easier to execute requests against the host web from a SharePoint Hosted App
-* Ability to control the order of the requests executed against the server
+* Ability to control the order of asynchronous requests
+* Ability to generate request urls for NodeJS applications
+* Easy to execute requests to/from the App/Host web
+* Full intellisense for the REST API
 * PowerShell-Like experience in the browser console
 * Create SharePoint solution assets through a configuration file
-    * Content Types (TBD - To Be Developed)
+    * Content Types
     * Fields
     * Lists
     * User Custom Actions
@@ -47,6 +47,21 @@
 npm install gd-sprest --save
 ```
 ### NodeJS
+```
+const $REST = require("gd-sprest);
+
+// Create a new generic list.
+request = (new $REST.Web("https://dev.sharepoint.com")).Lists().add({ BaseTemplate: $REST.SPTypes.ListTemplateType.GenericList, Title: "New List" });
+console.log(request.getInfo());
+
+// Console Output:
+// {
+//     data: '{"BaseTemplate":100,"Title":"New List","__metadata":{"type":"SP.List"}}',
+//     method: 'POST',
+//     url: 'https://dev.sharepoint.com'
+// }
+```
+### React
 ```
 import {
     ContextInfo,
