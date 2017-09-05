@@ -11,8 +11,8 @@ export const Ribbon = ({ onNavItemClick }) => {
             <div className="rb-left">
                 <Pivot onLinkClick={onNavItemClick}>
                     <PivotItem className="main-item" linkText="Home" />
-                    <PivotItem className="main-item" linkText="Get Started" />
-                    <PivotItem className="main-item" linkText="React" />
+                    <PivotItem className="main-item" linkText="gd-sprest-react" />
+                    <PivotItem className="main-item" linkText="gd-sprest-webparts" />
                     <PivotItem className="main-item" linkText="gitHub" />
                 </Pivot>
             </div>

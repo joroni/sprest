@@ -4,7 +4,7 @@ import { Image, Nav, INavLink, Pivot, PivotItem } from "office-ui-fabric-react";
 /**
  * Home Content
  */
-export class Home extends React.Component<null, { navItem: string }> {
+export class Home extends React.Component<null, { selectedKey?: string }> {
     /**
      * Constructor
      */
@@ -12,23 +12,32 @@ export class Home extends React.Component<null, { navItem: string }> {
         super();
 
         // Set the state
-        this.state = { navItem: "Features" };
+        this.state = {
+            selectedKey: "features"
+        };
     }
 
     // Render the home content
     render() {
         return (
             <div className="home">
-                <Nav className="nav" groups={[{
+                <Nav className="nav" selectedKey={this.state.selectedKey} groups={[{
                     links: [
-                        { name: "Features", url: "", onClick: this.onClick },
-                        { name: "Getting Started", url: "", onClick: this.onClick },
-                        { name: "Projects", url: "", onClick: this.onClick },
-                        { name: "Demos", url: "", onClick: this.onClick }
+                        { name: "Features", key: "features", url: "", onClick: this.onClick },
+                        { name: "Getting Started", key: "getting-started", url: "", onClick: this.onClick },
+                        { name: "Projects", key: "projects", url: "", onClick: this.onClick },
+                        { name: "Contributing", key: "contributing", url: "", onClick: this.onClick },
+                        { name: "Demos", key: "demos", url: "", onClick: this.onClick }
                     ]
                 }]}>
                 </Nav>
-                {this.renderContent()}
+                <div>
+                    <p>
+                        This framework allows you to generate a request to the SharePoint REST api.
+                        It's currently designed to work with JavaScript, TypeScript and NodeJS projects.
+                    </p>
+                    {this.renderContent()}
+                </div>
             </div>
         );
     }
@@ -44,16 +53,25 @@ export class Home extends React.Component<null, { navItem: string }> {
 
         // Update the state
         this.setState({
-            navItem: navItem.name
+            selectedKey: navItem.key
         });
     }
 
     // Method to render the content
     private renderContent = () => {
         // Show the content, based on the nav item clicked
-        switch (this.state.navItem) {
+        switch (this.state.selectedKey) {
+            // Contributing
+            case "contributing":
+                return (
+                    <p>
+                        I'm open to any and all feedback for this library. If you wish to branch and submit pull requests, I'm fine with that route.
+                        I find that opening an "Issue" with feature requests, is the best way to get feedback from others who wish to participate.
+                    </p>
+                );
+
             // Demos
-            case "Demos":
+            case "demos":
                 return (
                     <Pivot>
                         <PivotItem linkText="VS Code">
@@ -69,7 +87,7 @@ export class Home extends React.Component<null, { navItem: string }> {
                 );
 
             // Features
-            case "Features":
+            case "features":
                 return (
                     <ul className="features">
                         <li>Ability to control the order of asynchronous requests</li>
@@ -87,13 +105,13 @@ export class Home extends React.Component<null, { navItem: string }> {
                 );
 
             // Getting Started
-            case "Getting Started":
+            case "getting-started":
                 return (
                     <div className="getting-started">To Do</div>
                 );
 
             // Projects
-            case "Projects":
+            case "projects":
                 return (
                     <ul className="projects">
                         <li><a href="https://github.com/gunjandatta/sprest-sitecustomactions">Add/Remove Site Collection User Custom Actions</a></li>

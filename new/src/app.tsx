@@ -1,7 +1,6 @@
 import * as React from "react";
 import { render } from "react-dom";
 import { PivotItem } from "office-ui-fabric-react";
-import { GetStarted } from "./getStarted";
 import { Home } from "./home";
 import { Ribbon } from "./ribbon";
 import "../sass/app.scss";
@@ -62,13 +61,13 @@ export class App extends React.Component<null, { selectedNavItem?: string; }> {
     private renderContent = () => {
         // Render the component, based on the selected nav item
         switch (this.state.selectedNavItem) {
-            // Get Started
-            case "Get Started":
-                return <GetStarted />
-
             // React
-            case "React":
-                return <h1>React</h1>;
+            case "gd-sprest-react":
+                return <h1>gd-sprest-react</h1>;
+
+            // WebParts
+            case "gd-sprest-webparts":
+                return <h1>gd-sprest-webparts</h1>;
 
             // Render the home content by default
             default:
