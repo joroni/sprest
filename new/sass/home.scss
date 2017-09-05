@@ -25,4 +25,18 @@
     .demo-img {
         padding-top: 15px;
     }
+
+    // Getting Started
+    .getting-started {
+        // Header
+        .header {
+            @include ms-fontSize-xl;
+            margin-top: 10px;
+        }
+
+        // Step
+        .step {
+            @include ms-fontSize-mPlus;
+        }
+    }
 }

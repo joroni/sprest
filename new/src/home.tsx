@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Image, Nav, INavLink, Pivot, PivotItem } from "office-ui-fabric-react";
+import { GettingStarted } from "./gettingStarted";
 
 /**
  * Home Content
@@ -107,7 +108,7 @@ export class Home extends React.Component<null, { selectedKey?: string }> {
             // Getting Started
             case "getting-started":
                 return (
-                    <div className="getting-started">To Do</div>
+                    <GettingStarted />
                 );
 
             // Projects
