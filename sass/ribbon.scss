@@ -1,0 +1,24 @@
+.ribbon {
+    @include ms-bgColor-neutralLight;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+    // Ribbon Bar Left
+    .rb-left {
+        padding-left: 5px;
+    }
+
+    // Ribbon Bar Right
+    .rb-right {
+        @include ms-textAlign(right);
+        margin-top: 10px;
+        padding-right: 5px;
+        
+        // Icons
+        .icons > div {
+            float: right;
+            padding-left: 5px;
+        }
+    }
+}
