@@ -61,17 +61,14 @@ export class App extends React.Component<null, { selectedNavItem?: string; }> {
     private renderContent = () => {
         // Render the component, based on the selected nav item
         switch (this.state.selectedNavItem) {
-            // React
-            case "gd-sprest-react":
-                return <h1>gd-sprest-react</h1>;
-
-            // WebParts
-            case "gd-sprest-webparts":
-                return <h1>gd-sprest-webparts</h1>;
-
-            // Render the home content by default
-            default:
-                return <Home />;
+            // Wiki
+            case "Wiki":
+                // Redirect to the wiki
+                window.location.href = "https://github.com/gunjandatta/sprest/wiki";
+                break;
         }
+
+        // Render the home content by default
+        return <Home />;
     }
 }
