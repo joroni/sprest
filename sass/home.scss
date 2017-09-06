@@ -8,7 +8,7 @@
         margin-top: 10px;
 
         // Links
-        a:visited {
+        a, a:visited {
             @include ms-fontColor-white;
         }
     }
