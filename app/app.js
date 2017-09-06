@@ -31696,11 +31696,11 @@ var Home = (function (_super) {
                 case "demos":
                     return (React.createElement(office_ui_fabric_react_1.Pivot, null,
                         React.createElement(office_ui_fabric_react_1.PivotItem, { linkText: "VS Code" },
-                            React.createElement("img", { className: "demo-img", alt: "VS Code", src: "../images/demo-VSCode.gif" })),
+                            React.createElement("img", { className: "demo-img", alt: "VS Code", src: "./images/demo-VSCode.gif" })),
                         React.createElement(office_ui_fabric_react_1.PivotItem, { linkText: "Automation" },
-                            React.createElement("img", { className: "demo-img", alt: "VS Code", src: "../images/demo-SPConfig.gif" })),
+                            React.createElement("img", { className: "demo-img", alt: "VS Code", src: "./images/demo-SPConfig.gif" })),
                         React.createElement(office_ui_fabric_react_1.PivotItem, { linkText: "Powershell in the Browser Console" },
-                            React.createElement("img", { className: "demo-img", alt: "VS Code", src: "../images/demo-ConsoleWindow.gif" }))));
+                            React.createElement("img", { className: "demo-img", alt: "VS Code", src: "./images/demo-ConsoleWindow.gif" }))));
                 // Getting Started
                 case "getting-started":
                     return (React.createElement(gettingStarted_1.GettingStarted, null));

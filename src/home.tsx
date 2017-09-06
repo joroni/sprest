@@ -75,13 +75,13 @@ export class Home extends React.Component<null, { selectedKey?: string }> {
                 return (
                     <Pivot>
                         <PivotItem linkText="VS Code">
-                            <img className="demo-img" alt="VS Code" src="../images/demo-VSCode.gif" />
+                            <img className="demo-img" alt="VS Code" src="./images/demo-VSCode.gif" />
                         </PivotItem>
                         <PivotItem linkText="Automation">
-                            <img className="demo-img" alt="VS Code" src="../images/demo-SPConfig.gif" />
+                            <img className="demo-img" alt="VS Code" src="./images/demo-SPConfig.gif" />
                         </PivotItem>
                         <PivotItem linkText="Powershell in the Browser Console">
-                            <img className="demo-img" alt="VS Code" src="../images/demo-ConsoleWindow.gif" />
+                            <img className="demo-img" alt="VS Code" src="./images/demo-ConsoleWindow.gif" />
                         </PivotItem>
                     </Pivot>
                 );
