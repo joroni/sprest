@@ -1,14 +1,21 @@
 ---
 layout: default
 ---
-
 *Please report issues. I am constantly updating/fixing/testing to make this library better.*
-
-## Documentation:
+## Overview:
+#### Add-In Model
+The add-in model uses the app web for SharePoint Hosted Apps/Add-Ins. The provider hosted model would use CSOM, and not this library. This framework has built-in helper methods and a global flag for determining which web the request should execute against Host vs App. The request will be automatically updated based on the target web, so there is no additional code required from the developer.
+#### Automation
+The "SharePoint Configuration" class of the framework, allows the developer to define configuration files for the SharePoint solution. This configuraiton files includes intellisense, to ensure the developer is able to easily create them without references. There are built-in methods for execution (install, uninstall, etc).
+#### Intellisense
+One of the more important features of this framework is the intellisense. The classes have been setup to ensure the developer does not need to define the output type of the request. The "Types" and "SPTypes" classes can both be imported into the project. The "Types" class includes allows of the interfaces available in the library. The "SPTypes" class contains all of the enumerators in SharePoint.
+#### Powershell-Like Experience
+The library can utilize the console browser, available in the development tools of the browser. Once the library is referenced, requests to SharePoint can be executed directly in the browser console.
+#### Documentation:
 [Click here](https://github.com/gunjandatta/sprest/wiki) to view the documentation for the framework.
 
-## Get Started:
-### Node Package Manager
+## Getting Started:
+#### Node Package Manager
 ```
 npm install gd-sprest --save
 ```
@@ -92,12 +99,6 @@ import {
     Web
 } from "gd-sprest";
 ```
-
-### In Browser Requests
-1. Download the gd-sprest.min.js script from the "dist" folder
-2. Upload the script file to a SharePoint document library
-3. Reference the script in any page
-4. Open the console window and use the $REST global variable
 
 ### Example Projects
 * [Add/Remove Site Collection User Custom Actions](https://github.com/gunjandatta/sprest-sitecustomactions)
