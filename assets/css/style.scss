@@ -18,29 +18,25 @@
     }
     // Main Content
     #main_content {
+        display: flex;
+        flex-direction: row;
         max-width: 80%;
         width: 80%;
 
+        // Befefits
+        #benefits {
+            width: 50%;
+        }
+
+        // Demo
+        #demo {
+            width: 50%;
+        }
+
         // Content
-        div {
-            display: flex;
-            flex-direction: row;
-
-            // Befefits
-            #benefits {
-                width: 50%;
-            }
-
-            // Demo
-            #demo {
-                width: 50%;
-            }
-
-            // Content
-            #content {
-                display: block;
-                width: 100%;
-            }
+        #content {
+            display: block;
+            width: 100%;
         }
     }
     // Right Content
