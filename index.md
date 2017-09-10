@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
+[![Current Version](https://badge.fury.io/js/gd-sprest.svg)](https://www.npmjs.com/package/gd-sprest)
+[![Downloads](https://img.shields.io/npm/dm/gd-sprest.svg)](https://www.npmjs.com/package/gd-sprest)
+[![Total Downloads](https://img.shields.io/npm/dt/gd-sprest.svg)](https://www.npmjs.com/package/gd-sprest)
 *Please report issues. I am constantly updating/fixing/testing to make this library better.*
+
 ## Overview:
 #### Add-In Model
 The add-in model uses the app web for SharePoint Hosted Apps/Add-Ins. The provider hosted model would use CSOM, and not this library. This framework has built-in helper methods and a global flag for determining which web the request should execute against Host vs App. The request will be automatically updated based on the target web, so there is no additional code required from the developer.
