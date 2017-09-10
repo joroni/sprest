@@ -1,28 +1,5 @@
 *Please report issues. I am constantly updating/fixing/testing to make this library better.*
 
-## Benefits:
-* Ability to control the order of asynchronous requests
-* Ability to generate request urls for NodeJS applications
-* Easy to execute requests to/from the App/Host web
-* Full intellisense for the REST API
-* PowerShell-Like experience in the browser console
-* Create SharePoint solution assets through a configuration file
-    * Content Types
-    * Fields
-    * Lists
-    * User Custom Actions
-    * WebParts
-
-## Demos:
-### VS Code - Intellisense
-![VS Code](https://raw.githubusercontent.com/gunjandatta/sprest/master/images/demo-VSCode.gif)
-
-### PowerShell-Like Experience in the Browser Console
-![PowerShell](https://raw.githubusercontent.com/gunjandatta/sprest/master/images/demo-ConsoleWindow.gif)
-
-### SharePoint Configuration - Easily create solution assets
-![Automation](https://raw.githubusercontent.com/gunjandatta/sprest/master/images/demo-SPConfig.gif)
-
 ## Documentation:
 [Click here](https://github.com/gunjandatta/sprest/wiki) to view the documentation for the framework.
 
