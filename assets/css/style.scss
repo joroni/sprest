@@ -19,8 +19,6 @@
     }
     // Main Content
     #main_content {
-        display: flex;
-        flex-direction: row;
         max-width: 80%;
         width: 80%;
 
@@ -37,7 +35,6 @@
 
         // Content
         #content {
-            display: block;
             width: 100%;
         }
     }
