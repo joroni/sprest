@@ -2,6 +2,15 @@
 ---
 
 @import "{{ site.theme }}";
-.inner {
-    max-width: 80%;
+#left_content {
+    width: 10%;
+}
+#main_content {
+    width: 80%;
+    .inner {
+        max-width: 100%;
+    }
+}
+#right_content {
+    width: 10%;
 }
