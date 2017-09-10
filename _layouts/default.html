@@ -29,36 +29,20 @@
     </header>
   </div>
 
+  <!-- Counters -->
+  <div id="counters">
+  </div>
+
   <!-- MAIN CONTENT -->
   <div id="main_content_wrap" class="outer">
-    <section id="left_content">
-    </section>
+    <ul class="nav">
+      <li id="benefits">Benefits</li>
+      <li id="getting-started">Getting Started</li>
+    </ul>
     <section id="main_content" class="inner">
-      <div id="counters">
-        <a href="https://www.npmjs.com/package/gd-sprest"><img src="https://badge.fury.io/js/gd-sprest.svg" alt="Current Version" /></a>
-        <a href="https://www.npmjs.com/package/gd-sprest"><img src="https://img.shields.io/npm/dm/gd-sprest.svg" alt="Downloads" /></a>
-        <a href="https://www.npmjs.com/package/gd-sprest"><img src="https://img.shields.io/npm/dt/gd-sprest.svg" alt="Total Downloads" /></a>
+      <div class="getting-started">
       </div>
-      <div id="benefits">
-        <h2>Benefits:</h2>
-        <ul>
-          <li>Ability to control the order of asynchronous requests</li>
-          <li>Ability to generate request urls for NodeJS applications</li>
-          <li>Easy to execute requests to/from the App/Host web</li>
-          <li>Full intellisense for the REST API</li>
-          <li>PowerShell-Like experience in the browser console</li>
-          <li>Create SharePoint solution assets through a configuration file
-            <ul>
-              <li>Content Types</li>
-              <li>Fields</li>
-              <li>Lists</li>
-              <li>User Custom Actions</li>
-              <li>WebParts</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div id="demo">
+      <div class="demo">
         <h2>VS Code - Intellisense</h2>
         <img src="https://raw.githubusercontent.com/gunjandatta/sprest/master/images/demo-VSCode.gif" alt="Intellisense" />
         <h2>PowerShell-Like Experience in the Browser Console</h2>
@@ -82,6 +66,9 @@
       <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
     </footer>
   </div>
+
+  <!-- App -->
+  <script type="text/javascript" src="./app.js"></script>
 
   {% if site.google_analytics %}
   <script type="text/javascript">

@@ -1,20 +1,11 @@
+---
+layout: default
+---
+
 *Please report issues. I am constantly updating/fixing/testing to make this library better.*
 
 ## Documentation:
 [Click here](https://github.com/gunjandatta/sprest/wiki) to view the documentation for the framework.
-
-### Example Projects
-* [Add/Remove Site Collection User Custom Actions](https://github.com/gunjandatta/sprest-sitecustomactions)
-* [Calendar Event Callout](https://github.com/gunjandatta/sp-event-callout)
-* [Office Fabric BCS List](https://github.com/gunjandatta/sprest-bcs-list)
-* [Office Fabric React](https://github.com/gunjandatta/sprest-fabric-react)
-* [Office Fabric UI Dashboard](https://github.com/gunjandatta/sprest-list)
-* [Query >5000 Items Example](https://github.com/gunjandatta/sprest-large-list)
-* [SharePoint JS-Link Starter Project](https://github.com/gunjandatta/sp-jslink)
-* [SharePoint React/Redux Starter Project](https://github.com/gunjandatta/sp-react-redux)
-* [SharePoint Scripts Starter Project](https://github.com/gunjandatta/sp-scripts)
-* [SharePoint React Components](https://github.com/gunjandatta/sprest-react)
-* [WebPart Examples](https://github.com/gunjandatta/sprest-webparts)
 
 ## Get Started:
 ### Node Package Manager
@@ -40,7 +31,13 @@ $REST.Web().query({
 const $REST = require("gd-sprest);
 
 // Create a new generic list.
-request = $REST.Web("https://dev.sharepoint.com").Lists().add({ BaseTemplate: $REST.SPTypes.ListTemplateType.GenericList, Title: "New List" });
+request = $REST.Web("https://dev.sharepoint.com")
+    .Lists().add({
+        BaseTemplate: $REST.SPTypes.ListTemplateType.GenericList,
+        Title: "New List"
+    });
+
+// Log the request information
 console.log(request.getInfo());
 
 // Console Output:
@@ -73,9 +70,10 @@ import { List }
         }
     });
 ```
-#### React
+#### Available Libraries
 ```
 import {
+    $REST,
     ContextInfo,
     Email,
     Helper,
@@ -100,3 +98,16 @@ import {
 2. Upload the script file to a SharePoint document library
 3. Reference the script in any page
 4. Open the console window and use the $REST global variable
+
+### Example Projects
+* [Add/Remove Site Collection User Custom Actions](https://github.com/gunjandatta/sprest-sitecustomactions)
+* [Calendar Event Callout](https://github.com/gunjandatta/sp-event-callout)
+* [Office Fabric BCS List](https://github.com/gunjandatta/sprest-bcs-list)
+* [Office Fabric React](https://github.com/gunjandatta/sprest-fabric-react)
+* [Office Fabric UI Dashboard](https://github.com/gunjandatta/sprest-list)
+* [Query >5000 Items Example](https://github.com/gunjandatta/sprest-large-list)
+* [SharePoint JS-Link Starter Project](https://github.com/gunjandatta/sp-jslink)
+* [SharePoint React/Redux Starter Project](https://github.com/gunjandatta/sp-react-redux)
+* [SharePoint Scripts Starter Project](https://github.com/gunjandatta/sp-scripts)
+* [SharePoint React Components](https://github.com/gunjandatta/sprest-react)
+* [WebPart Examples](https://github.com/gunjandatta/sprest-webparts)

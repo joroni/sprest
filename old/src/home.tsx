@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Image, Nav, INavLink, Pivot, PivotItem } from "office-ui-fabric-react";
-import { GettingStarted } from "./gettingStarted";
+import { GettingStarted } from "./content/gettingStarted";
 import { Overview } from "./overview";
-import {Projects} from "./projects";
+import {Projects} from "./content/projects";
 
 /**
  * Home Content

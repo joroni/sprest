@@ -1,43 +1,9 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-// Header
-#header_wrap {
-}
-// Main
-#main_content_wrap {
-    display: flex;
-    flex-direction: row;
-    padding: 0px 10px;
-    width: 100%;
+@import "jekyll-theme-slate";
 
-    // Left Content
-    #left_content {
-        width: 10%;
-    }
-    // Main Content
-    #main_content {
-        max-width: 80%;
-        width: 80%;
-
-        // Befefits
-        #benefits {
-            width: 50%;
-        }
-
-        // Demo
-        #demo {
-            display: none;
-            width: 50%;
-        }
-
-        // Content
-        #content {
-            width: 100%;
-        }
-    }
-}
-// Footer
-#footer_wrap {
+// Update the width
+.inner {
+    max-width: 60%;
 }
