@@ -19,6 +19,27 @@
     #main_content {
         max-width: 80%;
         width: 80%;
+
+        // Content
+        div {
+            display: flex;
+            flex-direction: row;
+
+            // Befefits
+            #benefits {
+                width: 50%;
+            }
+
+            // Demo
+            #demo {
+                width: 50%;
+            }
+
+            // Content
+            #content {
+                width: 100%;
+            }
+        }
     }
     // Right Content
     #right_content {
