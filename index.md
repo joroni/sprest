@@ -4,10 +4,6 @@
 
 *Please report issues. I am constantly updating/fixing/testing to make this library better.*
 
-[navbar]
-* [Home](index.html)
-[/navbar]
-
 ## Benefits:
 * Ability to control the order of asynchronous requests
 * Ability to generate request urls for NodeJS applications
