@@ -4,7 +4,8 @@
 @import "{{ site.theme }}";
 // Header
 #header_wrap {
-
+    max-width: 80%;
+    width: 80%;
 }
 // Main
 #main_content_wrap {
@@ -53,5 +54,6 @@
 }
 // Footer
 #footer_wrap {
-
+    max-width: 80%;
+    width: 80%;
 }
