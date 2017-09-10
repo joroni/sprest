@@ -10,6 +10,7 @@
 #main_content_wrap {
     display: flex;
     flex-direction: row;
+    width: 100%;
 
     // Left Content
     #left_content {
@@ -37,6 +38,7 @@
 
             // Content
             #content {
+                display: block;
                 width: 100%;
             }
         }
