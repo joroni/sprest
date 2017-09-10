@@ -2,13 +2,36 @@
 ---
 
 @import "{{ site.theme }}";
-#left_content {
-    width: 10%;
+// Header
+#header_wrap {
+
 }
-#main_content {
-    max-width: 80%;
-    width: 80%;
+// Main
+#main_wrap {
+    display: flex;
+    flex-direction: row;
+
+    // Left Content
+    #left_content {
+        width: 10%;
+    }
+    // Main Content
+    #main_content {
+        max-width: 80%;
+        width: 80%;
+    }
+    // Right Content
+    #right_content {
+        width: 10%;
+
+        // Links
+        a {
+            display: flex;
+            flex-direction: column;
+        }
+    }
 }
-#right_content {
-    width: 10%;
+// Footer
+#footer_wrap {
+
 }
