@@ -9,6 +9,7 @@
 #main_content_wrap {
     display: flex;
     flex-direction: row;
+    padding: 0px 10px;
     width: 100%;
 
     // Left Content
@@ -34,16 +35,6 @@
         // Content
         #content {
             width: 100%;
-        }
-    }
-    // Right Content
-    #right_content {
-        width: 10%;
-
-        // Links
-        a {
-            display: flex;
-            flex-direction: column;
         }
     }
 }
