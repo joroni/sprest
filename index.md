@@ -15,8 +15,12 @@ The "SharePoint Configuration" class of the framework, allows the developer to d
 One of the more important features of this framework is the intellisense. The classes have been setup to ensure the developer does not need to define the output type of the request. The "Types" and "SPTypes" classes can both be imported into the project. The "Types" class includes allows of the interfaces available in the library. The "SPTypes" class contains all of the enumerators in SharePoint.
 #### Powershell-Like Experience
 The library can utilize the console browser, available in the development tools of the browser. Once the library is referenced, requests to SharePoint can be executed directly in the browser console.
+#### React Extension
+The [gd-sprest-react](https://github.com/gunjandatta/sprest-react) extends the [Office Fabric React Framework](https://dev.office.com/fabric) with components designed for SharePoint 2013/Online.
 #### Documentation:
-[Click here](https://github.com/gunjandatta/sprest/wiki) to view the documentation for the framework.
+[Click here](https://github.com/gunjandatta/sprest/wiki) to view the wiki.
+[Click here](https://gunjandatta.github.io/sprest/docs/globals.html) for an overview of the gd-sprest library.
+[Click here](https://gunjandatta.github.io/sprest/docs/react/globals.html) for an overview of the gd-sprest-react library.
 
 ## Getting Started:
 #### Node Package Manager
