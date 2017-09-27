@@ -1,0 +1,780 @@
+[gd-sprest](../README.md) > ["definitions/field/field"](../modules/_definitions_field_field_.md) > [IFieldQueryResult](../interfaces/_definitions_field_field_.ifieldqueryresult.md)
+
+
+
+# Interface: IFieldQueryResult
+
+
+Field Query Result
+
+## Hierarchy
+
+
+ [IFieldMethods](_definitions_field_field_.ifieldmethods.md)
+
+
+
+
+ [IFieldProps](_definitions_field_field_.ifieldprops.md)
+
+**↳ IFieldQueryResult**
+
+
+
+
+
+
+
+
+## Properties
+<a id="autoindexed"></a>
+
+###  AutoIndexed
+
+**●  AutoIndexed**:  *`boolean`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[AutoIndexed](_definitions_field_field_.ifieldprops.md#autoindexed)*
+
+*Defined in [definitions/field/field.ts:45](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L45)*
+
+
+
+
+
+___
+
+<a id="canbedeleted"></a>
+
+###  CanBeDeleted
+
+**●  CanBeDeleted**:  *`boolean`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[CanBeDeleted](_definitions_field_field_.ifieldprops.md#canbedeleted)*
+
+*Defined in [definitions/field/field.ts:48](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L48)*
+
+
+
+Gets a value that specifies whether the field can be deleted.
+
+
+
+
+___
+
+<a id="defaultvalue"></a>
+
+###  DefaultValue
+
+**●  DefaultValue**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[DefaultValue](_definitions_field_field_.ifieldprops.md#defaultvalue)*
+
+*Defined in [definitions/field/field.ts:51](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L51)*
+
+
+
+Gets or sets a value that specifies the default value for the field.
+
+
+
+
+___
+
+<a id="description"></a>
+
+###  Description
+
+**●  Description**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[Description](_definitions_field_field_.ifieldprops.md#description)*
+
+*Defined in [definitions/field/field.ts:54](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L54)*
+
+
+
+Gets or sets a value that specifies the description of the field.
+
+
+
+
+___
+
+<a id="descriptionresource"></a>
+
+###  DescriptionResource
+
+**●  DescriptionResource**:  *[IResourcePath](_definitions_lib_types_.iresourcepath.md)* 
+
+*Defined in [definitions/field/field.ts:145](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L145)*
+
+
+
+
+
+___
+
+<a id="direction"></a>
+
+###  Direction
+
+**●  Direction**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[Direction](_definitions_field_field_.ifieldprops.md#direction)*
+
+*Defined in [definitions/field/field.ts:57](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L57)*
+
+
+
+Gets or sets a value that specifies the reading order of the field.
+
+
+
+
+___
+
+<a id="enforceuniquevalues"></a>
+
+###  EnforceUniqueValues
+
+**●  EnforceUniqueValues**:  *`boolean`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[EnforceUniqueValues](_definitions_field_field_.ifieldprops.md#enforceuniquevalues)*
+
+*Defined in [definitions/field/field.ts:60](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L60)*
+
+
+
+Gets or sets a value that specifies whether to require unique field values in a list or library column.
+
+
+
+
+___
+
+<a id="entitypropertyname"></a>
+
+###  EntityPropertyName
+
+**●  EntityPropertyName**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[EntityPropertyName](_definitions_field_field_.ifieldprops.md#entitypropertyname)*
+
+*Defined in [definitions/field/field.ts:63](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L63)*
+
+
+
+Gets the name of the entity property for the list item entity that uses this field.
+
+
+
+
+___
+
+<a id="fieldtypekind"></a>
+
+###  FieldTypeKind
+
+**●  FieldTypeKind**:  *`SPTypes.FieldType`⎮`number`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[FieldTypeKind](_definitions_field_field_.ifieldprops.md#fieldtypekind)*
+
+*Defined in [definitions/field/field.ts:66](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L66)*
+
+
+
+Gets or sets a value that specifies the type of the field. Represents a FieldType value. See FieldType in the .NET client object model reference for a list of field type values.
+
+
+
+
+___
+
+<a id="filterable"></a>
+
+###  Filterable
+
+**●  Filterable**:  *`boolean`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[Filterable](_definitions_field_field_.ifieldprops.md#filterable)*
+
+*Defined in [definitions/field/field.ts:69](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L69)*
+
+
+
+Gets a value that specifies whether list items in the list can be filtered by the field value.
+
+
+
+
+___
+
+<a id="frombasetype"></a>
+
+###  FromBaseType
+
+**●  FromBaseType**:  *`boolean`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[FromBaseType](_definitions_field_field_.ifieldprops.md#frombasetype)*
+
+*Defined in [definitions/field/field.ts:72](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L72)*
+
+
+
+Gets a Boolean value that indicates whether the field derives from a base field type.
+
+
+
+
+___
+
+<a id="group"></a>
+
+###  Group
+
+**●  Group**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[Group](_definitions_field_field_.ifieldprops.md#group)*
+
+*Defined in [definitions/field/field.ts:75](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L75)*
+
+
+
+Gets or sets a value that specifies the field group.
+
+
+
+
+___
+
+<a id="hidden"></a>
+
+###  Hidden
+
+**●  Hidden**:  *`boolean`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[Hidden](_definitions_field_field_.ifieldprops.md#hidden)*
+
+*Defined in [definitions/field/field.ts:78](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L78)*
+
+
+
+Gets or sets a value that specifies whether the field is hidden in list views and list forms.
+
+
+
+
+___
+
+<a id="id"></a>
+
+###  Id
+
+**●  Id**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[Id](_definitions_field_field_.ifieldprops.md#id)*
+
+*Defined in [definitions/field/field.ts:81](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L81)*
+
+
+
+Gets a value that specifies the field identifier.
+
+
+
+
+___
+
+<a id="indexed"></a>
+
+###  Indexed
+
+**●  Indexed**:  *`boolean`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[Indexed](_definitions_field_field_.ifieldprops.md#indexed)*
+
+*Defined in [definitions/field/field.ts:84](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L84)*
+
+
+
+Gets or sets a Boolean value that specifies whether the field is indexed.
+
+
+
+
+___
+
+<a id="internalname"></a>
+
+###  InternalName
+
+**●  InternalName**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[InternalName](_definitions_field_field_.ifieldprops.md#internalname)*
+
+*Defined in [definitions/field/field.ts:87](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L87)*
+
+
+
+Gets a value that specifies the field internal name.
+
+
+
+
+___
+
+<a id="jslink"></a>
+
+###  JSLink
+
+**●  JSLink**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[JSLink](_definitions_field_field_.ifieldprops.md#jslink)*
+
+*Defined in [definitions/field/field.ts:90](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L90)*
+
+
+
+Gets or sets the name of an external JS file containing any client rendering logic for fields of this type.
+
+
+
+
+___
+
+<a id="readonlyfield"></a>
+
+###  ReadOnlyField
+
+**●  ReadOnlyField**:  *`boolean`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[ReadOnlyField](_definitions_field_field_.ifieldprops.md#readonlyfield)*
+
+*Defined in [definitions/field/field.ts:93](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L93)*
+
+
+
+Gets or sets a value that specifies whether the value of the field is read-only.
+
+
+
+
+___
+
+<a id="required"></a>
+
+###  Required
+
+**●  Required**:  *`boolean`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[Required](_definitions_field_field_.ifieldprops.md#required)*
+
+*Defined in [definitions/field/field.ts:96](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L96)*
+
+
+
+Gets or sets a value that specifies whether the field requires a value.
+
+
+
+
+___
+
+<a id="schemaxml"></a>
+
+###  Schemaxml
+
+**●  Schemaxml**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[Schemaxml](_definitions_field_field_.ifieldprops.md#schemaxml)*
+
+*Defined in [definitions/field/field.ts:99](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L99)*
+
+
+
+Gets or sets a value that specifies the XML schema that defines the field.
+
+
+
+
+___
+
+<a id="scope"></a>
+
+###  Scope
+
+**●  Scope**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[Scope](_definitions_field_field_.ifieldprops.md#scope)*
+
+*Defined in [definitions/field/field.ts:102](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L102)*
+
+
+
+Gets a value that specifies the server-relative URL of the list or the site to which the field belongs.
+
+
+
+
+___
+
+<a id="sealed"></a>
+
+###  Sealed
+
+**●  Sealed**:  *`boolean`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[Sealed](_definitions_field_field_.ifieldprops.md#sealed)*
+
+*Defined in [definitions/field/field.ts:105](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L105)*
+
+
+
+Gets a value that specifies whether properties on the field cannot be changed and whether the field cannot be deleted.
+
+
+
+
+___
+
+<a id="sortable"></a>
+
+###  Sortable
+
+**●  Sortable**:  *`boolean`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[Sortable](_definitions_field_field_.ifieldprops.md#sortable)*
+
+*Defined in [definitions/field/field.ts:108](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L108)*
+
+
+
+Gets a value that specifies whether list items in the list can be sorted by the field value.
+
+
+
+
+___
+
+<a id="staticname"></a>
+
+###  StaticName
+
+**●  StaticName**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[StaticName](_definitions_field_field_.ifieldprops.md#staticname)*
+
+*Defined in [definitions/field/field.ts:111](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L111)*
+
+
+
+Gets or sets a value that specifies a customizable identifier of the field.
+
+
+
+
+___
+
+<a id="title"></a>
+
+###  Title
+
+**●  Title**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[Title](_definitions_field_field_.ifieldprops.md#title)*
+
+*Defined in [definitions/field/field.ts:114](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L114)*
+
+
+
+Gets or sets value that specifies the display name of the field.
+
+
+
+
+___
+
+<a id="titleresource"></a>
+
+###  TitleResource
+
+**●  TitleResource**:  *[IResourcePath](_definitions_lib_types_.iresourcepath.md)* 
+
+*Defined in [definitions/field/field.ts:147](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L147)*
+
+
+
+
+
+___
+
+<a id="typeasstring"></a>
+
+###  TypeAsString
+
+**●  TypeAsString**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[TypeAsString](_definitions_field_field_.ifieldprops.md#typeasstring)*
+
+*Defined in [definitions/field/field.ts:117](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L117)*
+
+
+
+Gets or sets a value that specifies the type of the field.
+
+
+
+
+___
+
+<a id="typedisplayname"></a>
+
+###  TypeDisplayName
+
+**●  TypeDisplayName**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[TypeDisplayName](_definitions_field_field_.ifieldprops.md#typedisplayname)*
+
+*Defined in [definitions/field/field.ts:120](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L120)*
+
+
+
+Gets a value that specifies the display name for the type of the field.
+
+
+
+
+___
+
+<a id="typeshortdescription"></a>
+
+###  TypeShortDescription
+
+**●  TypeShortDescription**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[TypeShortDescription](_definitions_field_field_.ifieldprops.md#typeshortdescription)*
+
+*Defined in [definitions/field/field.ts:123](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L123)*
+
+
+
+Gets a value that specifies the description for the type of the field.
+
+
+
+
+___
+
+<a id="validationformula"></a>
+
+###  ValidationFormula
+
+**●  ValidationFormula**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[ValidationFormula](_definitions_field_field_.ifieldprops.md#validationformula)*
+
+*Defined in [definitions/field/field.ts:126](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L126)*
+
+
+
+Gets or sets a value that specifies the data validation criteria for the value of the field.
+
+
+
+
+___
+
+<a id="validationmessage"></a>
+
+###  ValidationMessage
+
+**●  ValidationMessage**:  *`string`* 
+
+*Inherited from [IFieldProps](_definitions_field_field_.ifieldprops.md).[ValidationMessage](_definitions_field_field_.ifieldprops.md#validationmessage)*
+
+*Defined in [definitions/field/field.ts:129](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L129)*
+
+
+
+Gets or sets a value that specifies the error message returned when data validation fails for the field.
+
+
+
+
+___
+
+
+## Methods
+<a id="delete"></a>
+
+###  delete
+
+► **delete**(): [IBase](_definitions_lib_base_.ibase.md)
+
+
+
+
+*Inherited from [IFieldMethods](_definitions_field_field_.ifieldmethods.md).[delete](_definitions_field_field_.ifieldmethods.md#delete)*
+
+*Defined in [definitions/field/field.ts:14](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L14)*
+
+
+
+Deletes the field.
+
+
+
+
+**Returns:** [IBase](_definitions_lib_base_.ibase.md)
+
+
+
+
+
+___
+
+<a id="setshowindisplayform"></a>
+
+###  setShowInDisplayForm
+
+► **setShowInDisplayForm**(showInForm: *`any`*): [IBase](_definitions_lib_base_.ibase.md)
+
+
+
+
+*Inherited from [IFieldMethods](_definitions_field_field_.ifieldmethods.md).[setShowInDisplayForm](_definitions_field_field_.ifieldmethods.md#setshowindisplayform)*
+
+*Defined in [definitions/field/field.ts:20](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L20)*
+
+
+
+Sets the value of the ShowInDisplayForm property for this field.
+
+
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| showInForm | `any`   |  Flag to show the field in the display form. |
+
+
+
+
+
+**Returns:** [IBase](_definitions_lib_base_.ibase.md)
+
+
+
+
+
+___
+
+<a id="setshowineditform"></a>
+
+###  setShowInEditForm
+
+► **setShowInEditForm**(showInForm: *`any`*): [IBase](_definitions_lib_base_.ibase.md)
+
+
+
+
+*Inherited from [IFieldMethods](_definitions_field_field_.ifieldmethods.md).[setShowInEditForm](_definitions_field_field_.ifieldmethods.md#setshowineditform)*
+
+*Defined in [definitions/field/field.ts:26](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L26)*
+
+
+
+Sets the value of the ShowInEditForm property for this field.
+
+
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| showInForm | `any`   |  Flag to show the field in the display form. |
+
+
+
+
+
+**Returns:** [IBase](_definitions_lib_base_.ibase.md)
+
+
+
+
+
+___
+
+<a id="setshowinnewform"></a>
+
+###  setShowInNewForm
+
+► **setShowInNewForm**(showInForm: *`any`*): [IBase](_definitions_lib_base_.ibase.md)
+
+
+
+
+*Inherited from [IFieldMethods](_definitions_field_field_.ifieldmethods.md).[setShowInNewForm](_definitions_field_field_.ifieldmethods.md#setshowinnewform)*
+
+*Defined in [definitions/field/field.ts:32](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L32)*
+
+
+
+Sets the value of the ShowInNewForm property for this field.
+
+
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| showInForm | `any`   |  Flag to show the field in the display form. |
+
+
+
+
+
+**Returns:** [IBase](_definitions_lib_base_.ibase.md)
+
+
+
+
+
+___
+
+<a id="update"></a>
+
+###  update
+
+► **update**(data: *`any`*): [IBase](_definitions_lib_base_.ibase.md)
+
+
+
+
+*Inherited from [IFieldMethods](_definitions_field_field_.ifieldmethods.md).[update](_definitions_field_field_.ifieldmethods.md#update)*
+
+*Defined in [definitions/field/field.ts:38](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/field/field.ts#L38)*
+
+
+
+Updates it's properties.
+
+
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| data | `any`   |  The field properties to update. |
+
+
+
+
+
+**Returns:** [IBase](_definitions_lib_base_.ibase.md)
+
+
+
+
+
+___
+
+

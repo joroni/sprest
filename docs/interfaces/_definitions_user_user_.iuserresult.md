@@ -1,0 +1,648 @@
+[gd-sprest](../README.md) > ["definitions/user/user"](../modules/_definitions_user_user_.md) > [IUserResult](../interfaces/_definitions_user_user_.iuserresult.md)
+
+
+
+# Interface: IUserResult
+
+
+User Result
+
+## Hierarchy
+
+
+ [IUserMethods](_definitions_user_user_.iusermethods.md)
+
+
+
+
+ [IUserProps](_definitions_user_user_.iuserprops.md)
+
+
+
+
+ [IUserQueryProps](_definitions_user_user_.iuserqueryprops.md)
+
+
+
+
+ [IBase](_definitions_lib_base_.ibase.md)[IUser](_definitions_user_user_.iuser.md), [IUserResult](_definitions_user_user_.iuserresult.md), [IUserQueryResult](_definitions_user_user_.iuserqueryresult.md)
+
+**↳ IUserResult**
+
+
+
+
+
+
+
+
+## Properties
+<a id="email"></a>
+
+###  Email
+
+**●  Email**:  *`string`* 
+
+*Inherited from [IUserProps](_definitions_user_user_.iuserprops.md).[Email](_definitions_user_user_.iuserprops.md#email)*
+
+*Defined in [definitions/user/user.ts:24](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/user/user.ts#L24)*
+
+
+
+Gets or sets the email address of the user.
+
+
+
+
+___
+
+<a id="id"></a>
+
+###  Id
+
+**●  Id**:  *`string`* 
+
+*Inherited from [IUserProps](_definitions_user_user_.iuserprops.md).[Id](_definitions_user_user_.iuserprops.md#id)*
+
+*Defined in [definitions/user/user.ts:27](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/user/user.ts#L27)*
+
+
+
+Gets a value that specifies the member identifier for the user or group.
+
+
+
+
+___
+
+<a id="ishiddeninui"></a>
+
+###  IsHiddenInUI
+
+**●  IsHiddenInUI**:  *`boolean`* 
+
+*Inherited from [IUserProps](_definitions_user_user_.iuserprops.md).[IsHiddenInUI](_definitions_user_user_.iuserprops.md#ishiddeninui)*
+
+*Defined in [definitions/user/user.ts:30](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/user/user.ts#L30)*
+
+
+
+Gets a value that indicates whether this member should be hidden in the UI.
+
+
+
+
+___
+
+<a id="issharedbyemailguestuser"></a>
+
+###  IsSharedByEmailGuestUser
+
+**●  IsSharedByEmailGuestUser**:  *`boolean`* 
+
+*Inherited from [IUserProps](_definitions_user_user_.iuserprops.md).[IsSharedByEmailGuestUser](_definitions_user_user_.iuserprops.md#issharedbyemailguestuser)*
+
+*Defined in [definitions/user/user.ts:32](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/user/user.ts#L32)*
+
+
+
+
+
+___
+
+<a id="issiteadmin"></a>
+
+###  IsSiteAdmin
+
+**●  IsSiteAdmin**:  *`boolean`* 
+
+*Inherited from [IUserProps](_definitions_user_user_.iuserprops.md).[IsSiteAdmin](_definitions_user_user_.iuserprops.md#issiteadmin)*
+
+*Defined in [definitions/user/user.ts:35](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/user/user.ts#L35)*
+
+
+
+Gets or sets a Boolean value that specifies whether the user is a site collection administrator.
+
+
+
+
+___
+
+<a id="loginname"></a>
+
+###  LoginName
+
+**●  LoginName**:  *`string`* 
+
+*Inherited from [IUserProps](_definitions_user_user_.iuserprops.md).[LoginName](_definitions_user_user_.iuserprops.md#loginname)*
+
+*Defined in [definitions/user/user.ts:38](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/user/user.ts#L38)*
+
+
+
+Gets the login name of the user.
+
+
+
+
+___
+
+<a id="principaltype"></a>
+
+###  PrincipalType
+
+**●  PrincipalType**:  *`string`* 
+
+*Inherited from [IUserProps](_definitions_user_user_.iuserprops.md).[PrincipalType](_definitions_user_user_.iuserprops.md#principaltype)*
+
+*Defined in [definitions/user/user.ts:41](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/user/user.ts#L41)*
+
+
+
+Gets a value containing the type of the principal. Represents a bitwise SP.PrincipalType value: None = 0; User = 1; DistributionList = 2; SecurityGroup = 4; SharePointGroup = 8; All = 15.
+
+
+
+
+___
+
+<a id="title"></a>
+
+###  Title
+
+**●  Title**:  *`string`* 
+
+*Inherited from [IUserProps](_definitions_user_user_.iuserprops.md).[Title](_definitions_user_user_.iuserprops.md#title)*
+
+*Defined in [definitions/user/user.ts:44](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/user/user.ts#L44)*
+
+
+
+Gets or sets a value that specifies the name of the principal.
+
+
+
+
+___
+
+<a id="userid"></a>
+
+###  UserId
+
+**●  UserId**:  *`string`* 
+
+*Inherited from [IUserProps](_definitions_user_user_.iuserprops.md).[UserId](_definitions_user_user_.iuserprops.md#userid)*
+
+*Defined in [definitions/user/user.ts:47](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/user/user.ts#L47)*
+
+
+
+Gets the information of the user that contains the user's name identifier and the issuer of the user's name identifier.
+
+
+
+
+___
+
+<a id="existsfl"></a>
+
+###  existsFl
+
+**●  existsFl**:  *`boolean`* 
+
+*Inherited from [IBase](_definitions_lib_base_.ibase.md).[existsFl](_definitions_lib_base_.ibase.md#existsfl)*
+
+*Defined in [definitions/lib/base.ts:12](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/lib/base.ts#L12)*
+
+
+
+True, if the object exists, false otherwise.
+
+
+
+
+___
+
+<a id="parent"></a>
+
+###  parent
+
+**●  parent**:  *`any`* 
+
+*Inherited from [IBase](_definitions_lib_base_.ibase.md).[parent](_definitions_lib_base_.ibase.md#parent)*
+
+*Defined in [definitions/lib/base.ts:15](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/lib/base.ts#L15)*
+
+
+
+The parent object, which created this object.
+
+
+
+
+___
+
+<a id="requesttype"></a>
+
+###  requestType
+
+**●  requestType**:  *[IRequestType](../modules/_definitions_lib_requesttype_.md#irequesttype)* 
+
+*Inherited from [IBase](_definitions_lib_base_.ibase.md).[requestType](_definitions_lib_base_.ibase.md#requesttype)*
+
+*Defined in [definitions/lib/base.ts:21](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/lib/base.ts#L21)*
+
+
+
+The request type
+
+
+
+
+___
+
+<a id="response"></a>
+
+###  response
+
+**●  response**:  *`string`* 
+
+*Inherited from [IBase](_definitions_lib_base_.ibase.md).[response](_definitions_lib_base_.ibase.md#response)*
+
+*Defined in [definitions/lib/base.ts:18](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/lib/base.ts#L18)*
+
+
+
+The response
+
+
+
+
+___
+
+
+## Methods
+<a id="groups"></a>
+
+###  Groups
+
+► **Groups**(): [ISiteGroups](_definitions_user_groups_.isitegroups.md)
+
+► **Groups**(id: *`number`*): [IBase](_definitions_lib_base_.ibase.md)[IGroup](_definitions_user_group_.igroup.md)
+
+
+
+
+*Inherited from [IUserQueryProps](_definitions_user_user_.iuserqueryprops.md).[Groups](_definitions_user_user_.iuserqueryprops.md#groups)*
+
+*Defined in [definitions/user/user.ts:57](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/user/user.ts#L57)*
+
+
+
+Gets the groups of which the user is a member.
+
+
+
+
+**Returns:** [ISiteGroups](_definitions_user_groups_.isitegroups.md)
+
+
+
+
+*Inherited from [IUserQueryProps](_definitions_user_user_.iuserqueryprops.md).[Groups](_definitions_user_user_.iuserqueryprops.md#groups)*
+
+*Defined in [definitions/user/user.ts:63](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/user/user.ts#L63)*
+
+
+
+Gets the group of which the user is a member.
+
+
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| id | `number`   |  The group id. |
+
+
+
+
+
+**Returns:** [IBase](_definitions_lib_base_.ibase.md)[IGroup](_definitions_user_group_.igroup.md)
+
+
+
+
+
+___
+
+<a id="delete"></a>
+
+###  delete
+
+► **delete**(): [IBase](_definitions_lib_base_.ibase.md)
+
+
+
+
+*Inherited from [IUserMethods](_definitions_user_user_.iusermethods.md).[delete](_definitions_user_user_.iusermethods.md#delete)*
+
+*Defined in [definitions/user/user.ts:16](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/user/user.ts#L16)*
+
+
+
+Deletes the user custom action.
+
+
+
+
+**Returns:** [IBase](_definitions_lib_base_.ibase.md)
+
+
+
+
+
+___
+
+<a id="done"></a>
+
+###  done
+
+► **done**(callback?: *function*): `any`
+
+► **done**(callback?: *function*): `any`
+
+
+
+
+*Inherited from [IBase](_definitions_lib_base_.ibase.md).[done](_definitions_lib_base_.ibase.md#done)*
+
+*Defined in [definitions/lib/base.ts:27](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/lib/base.ts#L27)*
+
+
+
+Method to wait for the requests to complete.
+
+
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| callback | function   |  The method to be executed after the request completes. |
+
+
+
+
+
+**Returns:** `any`
+
+
+
+
+*Inherited from [IBase](_definitions_lib_base_.ibase.md).[done](_definitions_lib_base_.ibase.md#done)*
+
+*Defined in [definitions/lib/base.ts:33](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/lib/base.ts#L33)*
+
+
+
+Method to wait for the requests to complete.
+
+
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| callback | function   |  The method to be executed after the request completes. |
+
+
+
+
+
+**Returns:** `any`
+
+
+
+
+
+___
+
+<a id="execute"></a>
+
+###  execute
+
+► **execute**(callback?: *function*): [IUser](_definitions_user_user_.iuser.md)
+
+► **execute**(waitFl: *`boolean`*): [IUser](_definitions_user_user_.iuser.md)
+
+► **execute**(callback: *function*, waitFl: *`boolean`*): [IUser](_definitions_user_user_.iuser.md)
+
+
+
+
+*Inherited from [IBase](_definitions_lib_base_.ibase.md).[execute](_definitions_lib_base_.ibase.md#execute)*
+
+*Defined in [definitions/lib/base.ts:39](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/lib/base.ts#L39)*
+
+
+
+Method to execute the request.
+
+
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| callback | function   |  The method to be executed after the request completes. |
+
+
+
+
+
+**Returns:** [IUser](_definitions_user_user_.iuser.md)
+
+
+
+
+*Inherited from [IBase](_definitions_lib_base_.ibase.md).[execute](_definitions_lib_base_.ibase.md#execute)*
+
+*Defined in [definitions/lib/base.ts:45](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/lib/base.ts#L45)*
+
+
+
+Method to execute the request.
+
+
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| waitFl | `boolean`   |  Flag to execute the request, after the previous requests have completed. |
+
+
+
+
+
+**Returns:** [IUser](_definitions_user_user_.iuser.md)
+
+
+
+
+*Inherited from [IBase](_definitions_lib_base_.ibase.md).[execute](_definitions_lib_base_.ibase.md#execute)*
+
+*Defined in [definitions/lib/base.ts:52](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/lib/base.ts#L52)*
+
+
+
+Method to execute the request.
+
+
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| callback | function   |  The method to be executed after the request completes. |
+| waitFl | `boolean`   |  Flag to execute the request, after the previous requests have completed. |
+
+
+
+
+
+**Returns:** [IUser](_definitions_user_user_.iuser.md)
+
+
+
+
+
+___
+
+<a id="executeandwait"></a>
+
+###  executeAndWait
+
+► **executeAndWait**(): [IUserResult](_definitions_user_user_.iuserresult.md)
+
+
+
+
+*Inherited from [IBase](_definitions_lib_base_.ibase.md).[executeAndWait](_definitions_lib_base_.ibase.md#executeandwait)*
+
+*Defined in [definitions/lib/base.ts:57](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/lib/base.ts#L57)*
+
+
+
+Method to execute the request synchronously.
+
+
+
+
+**Returns:** [IUserResult](_definitions_user_user_.iuserresult.md)
+
+
+
+
+
+___
+
+<a id="getinfo"></a>
+
+###  getInfo
+
+► **getInfo**(): [IRequestInfo](_definitions_lib_targetinfo_.irequestinfo.md)
+
+
+
+
+*Inherited from [IBase](_definitions_lib_base_.ibase.md).[getInfo](_definitions_lib_base_.ibase.md#getinfo)*
+
+*Defined in [definitions/lib/base.ts:62](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/lib/base.ts#L62)*
+
+
+
+Method to get the request information.
+
+
+
+
+**Returns:** [IRequestInfo](_definitions_lib_targetinfo_.irequestinfo.md)
+
+
+
+
+
+___
+
+<a id="query"></a>
+
+###  query
+
+► **query**(query: *[ODataQuery](_definitions_lib_odata_.odataquery.md)*): [IBase](_definitions_lib_base_.ibase.md)[IUserResult](_definitions_user_user_.iuserresult.md), [IUserQueryResult](_definitions_user_user_.iuserqueryresult.md)
+
+
+
+
+*Inherited from [IBase](_definitions_lib_base_.ibase.md).[query](_definitions_lib_base_.ibase.md#query)*
+
+*Defined in [definitions/lib/base.ts:68](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/lib/base.ts#L68)*
+
+
+
+Queries the collection.
+
+
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| query | [ODataQuery](_definitions_lib_odata_.odataquery.md)   |  - |
+
+
+
+
+
+**Returns:** [IBase](_definitions_lib_base_.ibase.md)[IUserResult](_definitions_user_user_.iuserresult.md), [IUserQueryResult](_definitions_user_user_.iuserqueryresult.md)
+
+
+
+
+
+___
+
+<a id="then"></a>
+
+###  then
+
+► **then**(resolve?: *function*, reject?: *function*): `PromiseLike`.<[IUserResult](_definitions_user_user_.iuserresult.md)>
+
+
+
+
+*Inherited from [IBase](_definitions_lib_base_.ibase.md).[then](_definitions_lib_base_.ibase.md#then)*
+
+*Defined in [definitions/lib/base.ts:75](https://github.com/gunjandatta/sprest/blob/3de79f1/src/definitions/lib/base.ts#L75)*
+
+
+
+Method to execute this request and previous ones to complete.
+
+
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| resolve | function   |  Method to execute for successful requests. |
+| reject | function   |  Method to execute for unsuccessful requests. |
+
+
+
+
+
+**Returns:** `PromiseLike`.<[IUserResult](_definitions_user_user_.iuserresult.md)>
+
+
+
+
+
+___
+
+
