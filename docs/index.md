@@ -81,6 +81,7 @@ layout: default
 * ["lib/socialFeed"](modules/_lib_socialfeed_.md)
 * ["lib/userProfile"](modules/_lib_userprofile_.md)
 * ["lib/web"](modules/_lib_web_.md)
+
 ---
 ### Mapper
 * ["mapper/attachment/attachment"](modules/_mapper_attachment_attachment_.md)
@@ -130,11 +131,13 @@ layout: default
 * ["mapper/web/web"](modules/_mapper_web_web_.md)
 * ["mapper/web/webinfos"](modules/_mapper_web_webinfos_.md)
 * ["mapper/web/webs"](modules/_mapper_web_webs_.md)
+
 ---
 ### Types
 * ["types/requestType"](modules/_types_requesttype_.md)
 * ["types/spConfigTypes"](modules/_types_spconfigtypes_.md)
 * ["types/sptypes"](modules/_types_sptypes_.md)
+
 ---
 ### Utilities
 * ["utils/base"](modules/_utils_base_.md)
@@ -144,4 +147,5 @@ layout: default
 * ["utils/promise"](modules/_utils_promise_.md)
 * ["utils/targetInfo"](modules/_utils_targetinfo_.md)
 * ["utils/xhrRequest"](modules/_utils_xhrrequest_.md)
+
 ---
