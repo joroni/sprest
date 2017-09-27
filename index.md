@@ -19,6 +19,7 @@ The library can utilize the console browser, available in the development tools 
 The [gd-sprest-react](https://github.com/gunjandatta/sprest-react) extends the [Office Fabric React Framework](https://dev.office.com/fabric) with components designed for SharePoint 2013/Online.
 #### Documentation:
 * [Click here](https://github.com/gunjandatta/sprest/wiki) to view the wiki.
+* [Click here](https://gunjandatta.github.io/sprest/docs/index.md) for an overview of the gd-sprest library.
 
 ## Getting Started:
 #### Node Package Manager
