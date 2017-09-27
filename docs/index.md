@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ### Definitions
 * ["definitions/complexTypes"](modules/_definitions_complextypes_.md)
 * ["definitions/contentType/contentType"](modules/_definitions_contenttype_contenttype_.md)
