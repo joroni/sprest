@@ -10,14 +10,14 @@ The SharePoint REST Framework was designed for SharePoint 2013, but works in bot
 * [gd-sprest](https://github.com/gunjandatta/sprest) - An easy way to execute requests against the SharePoint 2013/Online REST api
 * [gd-sprest-react](https://github.com/gunjandatta/sprest-react) - Extends the [Office Fabric React Framework](https://dev.office.com/fabric) with components designed for SharePoint 2013/Online.
 * [gd-sprest-webparts](https://github.com/gunjandatta/sprest-webparts) - Example SharePoint 2013/Online modern webparts.
-
 ### gd-sprest vs pnp-js-core
 The gd-sprest library is similar to the pnp-js-core, with the main difference being the ability to be used within the browser console window. This feature provides a "Powershell-Like" experience within the browser console window. Some reasons to use this functionality:
 * No access to the server farm
 * Ability to create scripts which can be tested in staging before running aginst production
 * For more efficient development of code, the developer has the ability to test code requests without having to deploy the solution
 * Easy way to perform research and development, by exploring the REST api
-
+### Bugs/Feature Requests/Help
+[Click Here](https://github.com/gunjandatta/sprest/issues) to report any bugs, request any new features or need help with code examples. Pull requests are welcomed for anyone interested in submitting them. Feel free to [email](mailto:github@dattabase.com) for other questions.
 ### Security
 The REST api execute requests based on the user's permissions. There is no way to elevate priviledges requests against the SharePoint REST.
 
