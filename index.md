@@ -143,6 +143,7 @@ The react components developed for SharePoint 2013 can be ported over to the Sha
 
 ### WebParts
 The webpart component allows the developer to easialy assign react components to be rendered based on the page's state (Display/Edit). This component currently supports webpart, publishing and wiki pages. The following webpart components are available:
+
 * Configuration - A react component to be used when the page is being edited, displaying an "Edit Configuration" button to render a panel for custom webpart properties.
     * List Configuration - Inherits the configuration webpart, displaying a web url and list dropdown.
     * Field Configuration - Inherits the list configuration webpart, adding a field picker.
@@ -154,6 +155,7 @@ The webpart component allows the developer to easialy assign react components to
 * Tabs - Displays all associated webparts within the same zone in tabs.
 
 ### Various Project Examples
+
 * [Add/Remove Site Collection User Custom Actions](https://github.com/gunjandatta/sprest-sitecustomactions)
 * [Calendar Event Callout](https://github.com/gunjandatta/sp-event-callout)
 * [Office Fabric BCS List](https://github.com/gunjandatta/sprest-bcs-list)
