@@ -2,7 +2,7 @@ title: SharePoint REST Framework
 description: 
 google_analytics: 
 show_downloads: false
-theme: jekyll-theme-midnight
+theme: jekyll-theme-architect
 
 plugins:
   - jekyll-mentions
