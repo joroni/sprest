@@ -25,7 +25,7 @@ The gd-sprest library is similar to the pnp-js-core, with the main difference be
 ### Security
 The REST api execute requests based on the user's permissions. There is no way to elevate priviledges requests against the SharePoint REST.
 
-## Get Started
+## Getting Started
 ### Packages
 #### NPM
 Add the npm package to your project:
