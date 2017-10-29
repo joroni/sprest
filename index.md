@@ -167,9 +167,4 @@ _The [gd-sprest-webparts](https://github.com/gunjandatta/sprest-webparts) github
 * [SharePoint JS-Link Starter Project](https://github.com/gunjandatta/sp-jslink)
 * [SharePoint React/Redux Starter Project](https://github.com/gunjandatta/sp-react-redux)
 * [SharePoint Scripts Starter Project](https://github.com/gunjandatta/sp-scripts)
-<<<<<<< HEAD
 * [SharePoint React Components](https://github.com/gunjandatta/sprest-react)
-=======
-* [SharePoint React Components](https://github.com/gunjandatta/sprest-react)
-* [WebPart Examples](https://github.com/gunjandatta/sprest-webparts)
->>>>>>> 7c8cc61ab90c7cfdb06fe504a3c4418d6ee98f27
