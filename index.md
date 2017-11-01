@@ -5,6 +5,7 @@ layout: default
 [![Downloads](https://img.shields.io/npm/dm/gd-sprest.svg)](https://www.npmjs.com/package/gd-sprest)
 [![Total Downloads](https://img.shields.io/npm/dt/gd-sprest.svg)](https://www.npmjs.com/package/gd-sprest)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/gd-sprest/Lobby)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/Dattabase)
 
 ## Overview:
 The SharePoint REST Framework was designed for SharePoint 2013, but works in both SharePoint 2013/2016 and Office 365. This framework is designed to remove the overhead of SharePoint development, allowing the developer to focus on the client requirements. A reference to the associated github projects are listed below:
