@@ -7,7 +7,7 @@ layout: default
 [![Total Downloads](https://img.shields.io/npm/dt/gd-sprest.svg)](https://www.npmjs.com/package/gd-sprest)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/gd-sprest/Lobby)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/Dattabase)
-
+# SharePoint Online/On-Premise REST Framework
 ## Overview:
 The SharePoint REST Framework was designed for SharePoint 2013, but works in both SharePoint 2013/2016 and Office 365. This framework is designed to remove the overhead of SharePoint development, allowing the developer to focus on the client requirements. A reference to the associated github projects are listed below:
 
@@ -21,7 +21,7 @@ The gd-sprest library is similar to the pnp-js-core, with the main difference be
 * No access to the server farm
 * Ability to create scripts which can be tested in staging before running aginst production
 * For more efficient development of code, the developer has the ability to test code requests without having to deploy the solution
-* Easy way to perform research and development, by exploring the REST api
+* Easy way to perform research and development by exploring the REST API with the available intellisense
 
 ### Bugs/Feature Requests/Help
 [Click Here](https://github.com/gunjandatta/sprest/issues) to report any bugs, request any new features or if need help with code examples. Pull requests are welcomed for anyone interested in submitting them. Feel free to [email](mailto:github@dattabase.com) for other questions.
@@ -110,10 +110,10 @@ The add-in model uses the app web for SharePoint Hosted Apps/Add-Ins. The provid
 import {
     $REST,
     ContextInfo,
-    Email,
     Helper,
     JSLink,
     List,
+    Navigation,
     PeopleManager,
     PeoplePicker,
     ProfileLoader,
@@ -124,6 +124,7 @@ import {
     SPTypes,
     Types,
     UserProfile,
+    Utility,
     Web
 } from "gd-sprest";
 ```
