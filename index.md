@@ -1,13 +1,6 @@
 ---
 layout: default
 ---
-[![NuGet](https://img.shields.io/nuget/v/gd-sprest.svg)](https://www.nuget.org/packages/gd-sprest/)
-[![Current Version](https://badge.fury.io/js/gd-sprest.svg)](https://www.npmjs.com/package/gd-sprest)
-[![Downloads](https://img.shields.io/npm/dm/gd-sprest.svg)](https://www.npmjs.com/package/gd-sprest)
-[![Total Downloads](https://img.shields.io/npm/dt/gd-sprest.svg)](https://www.npmjs.com/package/gd-sprest)
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/gd-sprest/Lobby)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/Dattabase)
-
 The SharePoint REST Framework was designed for SharePoint 2013, but works in both SharePoint 2013/2016 and Office 365. This framework is designed to remove the overhead of SharePoint development, allowing the developer to focus on the client requirements. A reference to the associated github projects are listed below:
 
 * [gd-sprest](https://github.com/gunjandatta/sprest) - An easy way to execute requests against the SharePoint 2013/Online REST api
@@ -94,16 +87,3 @@ The SharePoint Configuration automation feature allows the develoepr to easily c
 
 ##### Upgrade Path to SharePoint Framework [SPFx](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview)
 The javascript, typescript, react/angular/react/etc solutions developed for SharePoint 2013 can easily be migrated/copied to a SharePoint Framework (SPFx) modern solution.
-
-### Various Project Examples
-_The [gd-sprest-webparts](https://github.com/gunjandatta/sprest-webparts) github project contains the latest code samples._
-* [Add/Remove Site Collection User Custom Actions](https://github.com/gunjandatta/sprest-sitecustomactions)
-* [Calendar Event Callout](https://github.com/gunjandatta/sp-event-callout)
-* [Office Fabric BCS List](https://github.com/gunjandatta/sprest-bcs-list)
-* [Office Fabric React](https://github.com/gunjandatta/sprest-fabric-react)
-* [Office Fabric UI Dashboard](https://github.com/gunjandatta/sprest-list)
-* [Query >5000 Items Example](https://github.com/gunjandatta/sprest-large-list)
-* [SharePoint JS-Link Starter Project](https://github.com/gunjandatta/sp-jslink)
-* [SharePoint React/Redux Starter Project](https://github.com/gunjandatta/sp-react-redux)
-* [SharePoint Scripts Starter Project](https://github.com/gunjandatta/sp-scripts)
-* [SharePoint React Components](https://github.com/gunjandatta/sprest-react)
