@@ -7,7 +7,8 @@ layout: default
 [![Total Downloads](https://img.shields.io/npm/dt/gd-sprest.svg)](https://www.npmjs.com/package/gd-sprest)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/gd-sprest/Lobby)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/Dattabase)
-
+# SharePoint Online/On-Premise REST Framework
+## Overview:
 The SharePoint REST Framework was designed for SharePoint 2013, but works in both SharePoint 2013/2016 and Office 365. This framework is designed to remove the overhead of SharePoint development, allowing the developer to focus on the client requirements. A reference to the associated github projects are listed below:
 
 * [gd-sprest](https://github.com/gunjandatta/sprest) - An easy way to execute requests against the SharePoint 2013/Online REST api
@@ -32,10 +33,6 @@ The REST api execute requests based on the user's permissions. There is no way t
 
 ### Features
 The [Wiki](https://github.com/gunjandatta/sprest/wiki) gives a detailed overview of the framework.
-
-#### [Automation](https://github.com/gunjandatta/sprest/wiki/Automation)
-The "SharePoint Configuration" class allows the developer to define configuration files for the SharePoint solution. The configuration options are available through the built-in intellisense, shown below. This configuration class contains built-in methods to install and uninstall the SharePoint assets.
-![SharePoint Enumerator Types](https://github.com/gunjandatta/sprest/wiki/images/intellisense-ts-types-cfg-type.png)
 
 #### [Caching](https://github.com/gunjandatta/sprest/wiki/Session-Storage)
 The library has been designed to create the SharePoint object based on the response from the SharePoint REST API. This will allow us to easily stringify the request's target information and the SharePoint REST API's response to the local or storage session. A built-in stringify and parse method has been included in the library. Based on this design, SharePoint object will also contain all of its built-in methods.
