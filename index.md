@@ -15,7 +15,6 @@ The SharePoint REST Framework was designed for SharePoint 2013, but works in bot
 * [gd-sprest-webpart](http://dattabase.com/sharepoint-2013-modern-webpart/) - A series of blog posts for creating a SharePoint 2013 modern webparts.
 * [gd-sprest-webparts](https://github.com/gunjandatta/sprest-webparts) - SharePoint 2013 modern react webpart examples.
 * [Wiki](https://github.com/gunjandatta/sprest/wiki) - Additional details of getting started with this framework.
-* [[Wiki|Wiki]]
 
 ### gd-sprest vs pnp-js-core
 The gd-sprest library is similar to the pnp-js-core, with the main difference being the ability to be used within the browser console window. This feature provides a "Powershell-Like" experience within the browser console window. Some reasons to use this functionality:
